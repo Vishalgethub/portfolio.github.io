@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html Lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <!-- given below is Font Awesome CDN link -->  
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css">
+        <title>Personal Portfolio website With Typing Effect</title>
+    </head>
+    <body>
+        <div class="container">
+            <nav>
+                <div class="logo">Vishal<b>.</b></div>
+                <ul class="navItems">
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">skills</a></li>
+                    <li><a href="#">blog</a></li>
+                </ul>
+                <div class="links">
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </nav>
+
+            <div class="wrapper">
+                <div class="cols cols0">
+                    <span class="topline">Hello</span>
+                    <h1>I'm <span class="multiText"></span></h1>
+                    <P>ishd sxswcubwuc suwqhdw duqwibd wqudbwuqbduqw duibwduwqhdiuqwd xqwuxhwuqhdwqubix qwxwqduhwqud sxuwhduwgdwqbqxwubxu</P>
+                    <div class="btns">
+                        <button>download CV</buttons>
+                        <button>hire me</button>
+                    </div>
+                </div>
+                <div class="cols cols1">
+                    <div class="imgbox">
+                    <img src="img\splash.png" id="spalsh">
+                    <img src="img\logo.png">
+                </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        "></script>
+        <script>
+            var typingEffect = new Typed(".multiText",{
+                strings :["coder","youtuber","designer"],
+                loop : true,
+                typeSpeed : 100,
+                backSpeed : 80,
+                backDelay : 1500
+            })
+        </script>
+    </body>
+</html>
